@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites>
+  <testsuite name="" tests="2" assertions="2" errors="0" warnings="0" failures="0" skipped="0" time="0.201333">
+    <testsuite name="P\Tests\Unit\ExampleTest" file="/Users/vitor.caneco/Code/repos/skeleton-laravel/vendor/pestphp/pest/src/Factories/TestCaseFactory.php(204) : eval()'d code" tests="1" assertions="1" errors="0" warnings="0" failures="0" skipped="0" time="0.011496">
+      <testcase name="example" assertions="1" time="0.011496"/>
+    </testsuite>
+    <testsuite name="P\Tests\Feature\ExampleTest" file="/Users/vitor.caneco/Code/repos/skeleton-laravel/vendor/pestphp/pest/src/Factories/TestCaseFactory.php(204) : eval()'d code" tests="1" assertions="1" errors="0" warnings="0" failures="0" skipped="0" time="0.189837">
+      <testcase name="it has a home page" assertions="1" time="0.189837"/>
+    </testsuite>
+  </testsuite>
+</testsuites>

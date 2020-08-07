@@ -1,0 +1,37 @@
+html, body {
+    overscroll-behavior: contain;
+    scroll-behavior: smooth;
+    -webkit-tap-highlight-color: transparent;
+    @apply overflow-x-hidden;
+}
+
+select {
+    @apply bg-transparent;
+}
+
+legend, label {
+    @apply block;
+}
+
+button {
+    @apply select-none transition-all ease-in;
+    transition: background-color 200ms ease, color 200ms ease;
+}
+
+a:focus, select:focus, input:focus, textarea:focus, button:focus {
+    @apply outline-none;
+}
+
+pre {
+    @apply p-4 font-mono text-xs leading-tight text-white bg-black rounded shadow;
+    &.fix-l {
+        @apply fixed bottom-0 left-0 mb-2 ml-2;
+    }
+    &.fix-r {
+        @apply fixed bottom-0 right-0 mb-2 mr-2;
+    }
+}
+
+[hidden], [v-cloak], [x-cloak] {
+    display: none !important;
+}
