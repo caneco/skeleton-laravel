@@ -19,8 +19,7 @@
         "fzaninotto/faker": "^1.9.1",
         "mockery/mockery": "^1.3.1",
         "nunomaduro/collision": "^5.0",
-        "pestphp/pest": "^0.3",
-        "pestphp/pest-plugin-watch": "^0.2.0@dev"
+        "pestphp/pest": "^0.3"
     },
     "config": {
         "optimize-autoloader": true,
